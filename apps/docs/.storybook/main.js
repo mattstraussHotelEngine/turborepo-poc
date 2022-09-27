@@ -14,17 +14,10 @@ module.exports = {
       resolve: {
         alias: [
           {
-            find: "@motelengine-ui",
+            find: "@acme/core",
             replacement: path.resolve(
               __dirname,
-              "../../../packages/motelengine-ui"
-            ),
-          },
-          {
-            find: "@motelengine-types",
-            replacement: path.resolve(
-              __dirname,
-              "../../../packages/motelengine-types/src"
+              "../../../packages/acme-core/"
             ),
           },
         ],

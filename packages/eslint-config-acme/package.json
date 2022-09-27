@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-motelengine",
+  "name": "eslint-config-acme",
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",

@@ -1,5 +1,5 @@
 {
-  "extends": "@motelengine/tsconfig/react-library.json",
+  "extends": "@acme/tsconfig/react-library.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }
