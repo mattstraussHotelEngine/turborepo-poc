@@ -1,5 +1,5 @@
 import * as React from "react";
-import { IButton } from '../../../hotelengine-types/src';
+import { IButton } from '../../../motelengine-types/src';
 
 
 export const Button = ({label}: IButton)  => {

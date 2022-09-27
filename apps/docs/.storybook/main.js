@@ -14,17 +14,17 @@ module.exports = {
       resolve: {
         alias: [
           {
-            find: "@hotelengine-ui",
+            find: "@motelengine-ui",
             replacement: path.resolve(
               __dirname,
-              "../../../packages/hotelengine-ui"
+              "../../../packages/motelengine-ui"
             ),
           },
           {
-            find: "@hotelengine-types",
+            find: "@motelengine-types",
             replacement: path.resolve(
               __dirname,
-              "../../../packages/hotelengine-types/src"
+              "../../../packages/motelengine-types/src"
             ),
           },
         ],

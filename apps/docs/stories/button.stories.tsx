@@ -1,5 +1,5 @@
 import React  from "react";
-import { Button } from "@hotelengine-ui";
+import { Button } from "@motelengine-ui";
 
 export default {
   title: "Components/Button",

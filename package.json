@@ -12,13 +12,17 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filter=docs^... && changeset publish"
+    "release": "turbo run build --filter=docs^... && changeset publish",
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.22.0",
+    "@changesets/cli": "^2.24.4",
     "eslint": "^8.15.0",
-    "eslint-config-hotelengine": "*",
+    "eslint-config-motelengine": "*",
     "prettier": "^2.5.1",
     "turbo": "latest"
+  },
+  "publishConfig": {
+    "@mattstraussHotelEngine:registry": "https://npm.pkg.github.com"
   }
 }
