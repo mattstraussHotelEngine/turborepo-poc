@@ -17,7 +17,7 @@ module.exports = {
             find: "@motelengine/ui",
             replacement: path.resolve(
               __dirname,
-              "../../../packages/motelengine-core/"
+              "../../../packages/motelengine-ui/"
             ),
           },
         ],
