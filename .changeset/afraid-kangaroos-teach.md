@@ -1,5 +1,0 @@
----
-"@motelengine/ui": major
----
-
-Testing
